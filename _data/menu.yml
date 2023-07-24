@@ -2,37 +2,41 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+# --------------------------------------------------------
+  - title: 프로필
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
+      - title: CV
+        url: https://github.com/2daeeun/CV
+      - title: Github
         url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
-
-  - title: all posts
+# --------------------------------------------------------
+  - title: 전체 글
     post_list:
       limit: 5
       show_more: true
-      show_more_text: See archive...
+      show_more_text: See more...
       show_more_url: archive.html
+# --------------------------------------------------------
+  - title: 컴퓨터
+    entries:
+# --------------------------------------------------------
+    - title: C 표준 라이브러리
+      post_list:
+        category: C_standard_library
+        limit: 3
+        show_more: true
+        show_more_text: See more posts...
+        show_more_url: example2-archive.html
+# --------------------------------------------------------
+    - title: 알쓸컴잡 (알아두면 쓸데없는 컴퓨터 잡지식)
+      post_list:
+        category: tip
+        limit: 3
+        show_more: true
+        show_more_text: See more posts...
+        show_more_url: example2-archive.html
 
-  - title: posts by category
-    post_list:
-      category: example2
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
-
-  - title: rss
+# --------------------------------------------------------
+  - title: RSS
     url: feed.xml
-  
-  - title: another list
-    entries:
-      - title: with subitems
-        entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
-  - title: PRO TIP
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
+# --------------------------------------------------------
