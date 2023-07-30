@@ -35,7 +35,14 @@ entries:
         show_more: true
         show_more_text: See more posts...
         show_more_url: example2-archive.html
-
+# --------------------------------------------------------
+  - title: 작성 예정 글 목록
+    post_list:
+      category: todo
+      limit: 5
+      show_more: true
+      show_more_text: See more...
+      show_more_url: archive.html
 # --------------------------------------------------------
   - title: RSS
     url: feed.xml
