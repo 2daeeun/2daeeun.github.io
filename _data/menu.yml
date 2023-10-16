@@ -17,35 +17,33 @@ entries:
       limit: 5
       show_more: true
       show_more_text: 더 보기...
-      #show_more_url: archive.html
-      show_more_url: show_more_url_archive.html
+      show_more_url: archive.html
 # --------------------------------------------------------
   - title: 컴퓨터
     entries:
 # --------------------------------------------------------
-    - title: C 표준 라이브러리(작성중)
-      post_list:
-        limit: 3
-        category: c_standard_library
-        show_more: true
-        show_more_text: 더 보기...
-        show_more_url: show_more_url_c_standard_library.html
-# --------------------------------------------------------
-    - title: 알쓸컴잡 (알아두면 쓸데없는 컴퓨터 잡지식)
+    - title: 알쓸컴잡
       post_list:
         limit: 3
         category: tip
         show_more: true
         show_more_text: 더 보기...
-        show_more_url: show_more_url_tip.html
+        show_more_url: archive.html
 # --------------------------------------------------------
-    - title: 작성 예정 글 목록
-      post_list:
-        limit: 3
-        category: todo
-        show_more: true
-        show_more_text: 더 보기...
-        show_more_url: show_more_url_todo.html
+  - title: 튜터링
+    entries:
+# --------------------------------------------------------
+      - title: C언어 튜터링
+        entries:
+# --------------------------------------------------------
+        - title: 2023년도 C언어 튜터링
+          url: https://github.com/2daeeun/2023_C_Tutoring
+# --------------------------------------------------------
+      - title: 리눅스 튜터링
+        entries:
+# --------------------------------------------------------
+        - title: 2023년도 여름방학 리눅스 튜터링
+          url: https://github.com/2daeeun/linux_tutoring
 # --------------------------------------------------------
   - title: RSS
     url: feed.xml
