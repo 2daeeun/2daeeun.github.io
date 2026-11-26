@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal homepage of Daeun Lee (2daeeun).">
+    <title>Daeun Lee | 2daeeun</title>
+    <style>
+        :root { color-scheme: light dark; }
+        body {
+            max-width: 640px;
+            margin: 80px auto;
+            padding: 0 24px;
+            font: 16px/1.7 system-ui, sans-serif;
+            color: #262626;
+            background: #fafafa;
+        }
+        header { padding-bottom: 24px; border-bottom: 1px solid #d6d6d6; }
+        h1 { font-size: 2.2rem; letter-spacing: -0.05em; margin: 0; }
+        h2 { font-size: 1.1rem; margin: 0 0 12px; }
+        p { margin: 8px 0; }
+        .handle, footer { color: #666; font-family: monospace; font-size: 0.9rem; }
+        section { margin: 32px 0; }
+        ul { padding-left: 22px; }
+        a { color: #245c9c; text-underline-offset: 3px; }
+        a:hover { text-decoration: none; }
+        footer { border-top: 1px solid #d6d6d6; padding-top: 20px; margin-top: 48px; }
+        @media (max-width: 600px) { body { margin: 40px auto; } }
+        @media (prefers-color-scheme: dark) {
+            body { color: #e5e5e5; background: #171717; }
+            .handle, footer { color: #a3a3a3; }
+            header, footer { border-color: #404040; }
+            a { color: #9ac5ff; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p class="handle">@2daeeun</p>
+        <h1>Daeun Lee</h1>
+        <p>Interested in operating systems, Linux kernel internals, and I/O systems.</p>
+    </header>
+    <main>
+        <section>
+            <h2>About</h2>
+            <p>I am a student working on Linux kernel and storage systems, with a focus on asynchronous I/O and file systems.</p>
+        </section>
+        <section>
+            <h2>Research Interests</h2>
+            <ul>
+                <li>Operating Systems</li>
+                <li>Linux Kernel</li>
+                <li>File Systems</li>
+                <li>Asynchronous I/O (io_uring)</li>
+            </ul>
+        </section>
+    </main>
+    <footer>2daeeun.dev</footer>
+</body>
+</html>
